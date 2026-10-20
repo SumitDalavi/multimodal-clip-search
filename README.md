@@ -1,8 +1,10 @@
 # multimodal-clip-search
 
-[![Release](https://img.shields.io/github/v/release/SumitDalavi/multimodal-clip-search)](https://github.com/SumitDalavi/multimodal-clip-search/releases)
+[![CI Pipeline](https://github.com/SumitDalavi/multimodal-clip-search/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/SumitDalavi/multimodal-clip-search/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/SumitDalavi/multimodal-clip-search?color=0969da&label=release&logo=github)](https://github.com/SumitDalavi/multimodal-clip-search/releases)
 [![Release Workflow](https://github.com/SumitDalavi/multimodal-clip-search/actions/workflows/release.yml/badge.svg)](https://github.com/SumitDalavi/multimodal-clip-search/actions/workflows/release.yml)
-
+[![SBOM](https://img.shields.io/badge/SBOM-SPDX%202.3-blueviolet?logo=spdx)](https://github.com/SumitDalavi/multimodal-clip-search/releases/tag/v0.2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 Semantic search engine utilizing OpenAI's CLIP model to search for images using natural language text queries.
 
@@ -26,13 +28,11 @@ pytest
 ## Architecture
 Please see the [Architecture Document](docs/architecture.md) for sequence diagrams and system design details.
 
-
 ## CI & Reliability Updates (August 2026)
 
 - **CI Pipeline Remediation:** Successfully resolved all CI/CD pipeline failures and established baseline CI workflows.
 - **Specific Fix:** Added and configured robust GitHub Actions workflows for automated testing, linting, and formatting.
 - **Status:** 🟩 Passing
-
 
 ## How It Works
 
